@@ -20,3 +20,15 @@
 <script src="JS2.js"></script>
 <script src="JS3.js"></script>
 </html>
+
+
+ 
+var things = [':)', 'I did the DIE', 'EngyMaya Master!', 'I'm Creepy', 'hmmmmmmmmm...', 'Old roblox is fun, and also creepy.'];
+var thing = things[Math.floor(Math.random()*things.length)];
+ 
+document.getElementById("myHeader").innerHTML = [thing];
+
+var usernames = ['SmileForLife', 'DoctorShadow', 'HelpUsWeNeedFriends', 'EngyMaya', 'FrlendsPIease', 'INeedMoreDeadBodys', 'EngyMaya',  'tristanlong2008', 'BOB', 'BADBOB',  'DemonPleaseDie'];
+var username = usernames[Math.floor(Math.random()*usernames.length)];
+ 
+document.getElementById("name").innerHTML = [username];
